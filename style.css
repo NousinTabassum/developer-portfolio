@@ -16,10 +16,12 @@ h1{
 section{
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .box{
     width: 50%;
     padding-left: 5%;
+    border: 1px solid black;
     
 }
 p{
@@ -35,4 +37,13 @@ p{
  background-image: linear-gradient(orange,tomato);
  padding:10px 30px;
  font-weight: 700px;
+}
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+
+}
+#dream{
+    padding-right: 120px;
 }
