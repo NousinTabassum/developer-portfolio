@@ -7,13 +7,16 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-h1{
+.top_banner h1{
     font-size: 50px;
+}
+h1{
+    font-size: 40px;
 }
 .orange_color{
     color: orange;
 }
-section{
+.flex_container{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -22,6 +25,7 @@ section{
     width: 50%;
     padding-left: 5%;
     border: 1px solid black;
+   
     
 }
 p{
@@ -47,3 +51,4 @@ p{
 #dream{
     padding-right: 120px;
 }
+
